@@ -1,0 +1,21 @@
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 100px 40px 100px 100px;
+}
+
+.buttonAddRecipe {
+    padding:15px 50px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.buttonAddRecipe > span {
+    color: #5D2E46;
+}
+
+.buttonAddRecipe:hover {
+    background-color: black;
+    color: #fefefe;
+}

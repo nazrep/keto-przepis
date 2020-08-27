@@ -1,0 +1,16 @@
+.header {
+    width: 100vw;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__heading {
+    font-size: 120px;
+    position: relative;
+}
+
+.header__heading--special {
+    color: #5D2E46;
+}
