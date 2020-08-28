@@ -1,0 +1,29 @@
+.addedRecipe {
+    display: block;
+    text-align: center;
+    margin: 200px 100px;
+
+}
+
+.addedRecipe__heading {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.addedRecipe__button {
+    padding: 15px 50px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.addedRecipe__button--special{
+   color: #5D2E46;
+}
+
+.addedRecipe__button:hover{
+    background-color: black;
+    color: white;
+}

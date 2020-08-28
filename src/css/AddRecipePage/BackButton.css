@@ -1,7 +1,7 @@
 .backButton {
     display: flex;
     justify-content: start;
-    margin: 100px 40px 100px 100px;
+    margin: 100px 40px 0 100px;
 }
 
 .backButton__button {
@@ -10,6 +10,8 @@
     border: 1px solid black;
     font-size: 20px;
     cursor: pointer;
+    border-radius: 1px;
+
 }
 
 .backButton__special {

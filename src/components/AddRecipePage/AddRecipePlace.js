@@ -8,8 +8,8 @@ const AddRecipePlace = () => {
     <div className="addRecipePlace">
       <form action="">
         <input placeholder="Nazwa twojego przepisu" type="text" className="addRecipePlace__title"/>
-        <input placeholder="Składniki" type="text" className="addRecipePlace__ingredients"/>
-        <input placeholder="Sposób przygotowania" type="text" className="addRecipePlace__preparing"/>
+        <textarea placeholder="Składniki" type="text" className="addRecipePlace__ingredients"/>
+        <textarea placeholder="Sposób przygotowania" type="text" className="addRecipePlace__preparing"/>
         <div className="addRecipePlace__macro">
           <input placeholder="Kalorie" type="text" className="addRecipePlace__calories"/>
           <input placeholder="Białko" type="text" className="addRecipePlace__macronutrient"/>

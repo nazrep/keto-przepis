@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import SingleRecipe from "./components/SingleRecipePage/SingleRecipe";
 import BackButton from "./components/AddRecipePage/BackButton";
 import AddRecipePlace from "./components/AddRecipePage/AddRecipePlace";
-import AddedRecipePage from "./components/AddedRecipePage.js/AddedRecipePage";
+import AddedRecipe from "./components/AddedRecipe/AddedRecipe";
 
 
 const App = () => {
@@ -22,10 +22,9 @@ const App = () => {
               <AddRecipePlace/>
             </div>
           </Route>
-          <Route path="/" exact>
+          <Route path="/added-recipe" exact>
             <div className="App__page">
-              <Button/>
-              <RecipeContainer/>
+              <AddedRecipe/>
             </div>
           </Route>
           <Route path="/single-recipe" exact>
@@ -33,9 +32,10 @@ const App = () => {
               <SingleRecipe/>
             </div>
           </Route>
-          <Route path="/added-recipe" exact>
+          <Route path="/" exact>
             <div className="App__page">
-              <AddedRecipePage/>
+              <Button/>
+              <RecipeContainer/>
             </div>
           </Route>
         </Switch>
